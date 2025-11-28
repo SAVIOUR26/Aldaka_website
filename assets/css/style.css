@@ -666,6 +666,18 @@ textarea.form-control {
         bottom: 20px;
         right: 20px;
     }
+
+    /* Founder section responsive */
+    .founder-section-grid {
+        grid-template-columns: 1fr !important;
+        gap: 2rem !important;
+    }
+
+    .founder-image-container {
+        max-width: 400px !important;
+        height: 400px !important;
+        margin: 0 auto !important;
+    }
 }
 
 /* ===================================

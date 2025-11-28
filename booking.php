@@ -98,8 +98,8 @@ include 'includes/header.php';
 <!-- Booking Hero -->
 <section class="hero" style="padding: 3rem 1rem;">
     <div class="hero-content">
-        <h1><i class="fas fa-calendar-check"></i> Book Your Service</h1>
-        <p>Fill out the form below and we'll get back to you shortly</p>
+        <h1><i class="fas fa-calendar-check"></i> Schedule a Consultation</h1>
+        <p>Let's discuss how we can enhance your communication strategies</p>
     </div>
 </section>
 
@@ -152,23 +152,32 @@ include 'includes/header.php';
                         <label for="service"><i class="fas fa-concierge-bell"></i> Select Service *</label>
                         <select id="service" name="service" class="form-control" required>
                             <option value="">-- Choose a Service --</option>
-                            <option value="Cleaning Services" <?php echo (($_POST['service'] ?? '') === 'Cleaning Services') ? 'selected' : ''; ?>>
-                                Cleaning Services
+                            <option value="Communication Needs Assessment" <?php echo (($_POST['service'] ?? '') === 'Communication Needs Assessment') ? 'selected' : ''; ?>>
+                                Communication Needs Assessment
                             </option>
-                            <option value="Maintenance & Repair" <?php echo (($_POST['service'] ?? '') === 'Maintenance & Repair') ? 'selected' : ''; ?>>
-                                Maintenance & Repair
+                            <option value="Strategy Development" <?php echo (($_POST['service'] ?? '') === 'Strategy Development') ? 'selected' : ''; ?>>
+                                Strategy Development
                             </option>
-                            <option value="Painting Services" <?php echo (($_POST['service'] ?? '') === 'Painting Services') ? 'selected' : ''; ?>>
-                                Painting Services
+                            <option value="Content Creation" <?php echo (($_POST['service'] ?? '') === 'Content Creation') ? 'selected' : ''; ?>>
+                                Content Creation
                             </option>
-                            <option value="Electrical Work" <?php echo (($_POST['service'] ?? '') === 'Electrical Work') ? 'selected' : ''; ?>>
-                                Electrical Work
+                            <option value="Media Training & Coaching" <?php echo (($_POST['service'] ?? '') === 'Media Training & Coaching') ? 'selected' : ''; ?>>
+                                Media Training & Coaching
                             </option>
-                            <option value="Plumbing Services" <?php echo (($_POST['service'] ?? '') === 'Plumbing Services') ? 'selected' : ''; ?>>
-                                Plumbing Services
+                            <option value="Workshops & Training" <?php echo (($_POST['service'] ?? '') === 'Workshops & Training') ? 'selected' : ''; ?>>
+                                Workshops & Training
                             </option>
-                            <option value="Carpentry" <?php echo (($_POST['service'] ?? '') === 'Carpentry') ? 'selected' : ''; ?>>
-                                Carpentry
+                            <option value="Research & Evaluation" <?php echo (($_POST['service'] ?? '') === 'Research & Evaluation') ? 'selected' : ''; ?>>
+                                Research & Evaluation
+                            </option>
+                            <option value="Stakeholder Engagement" <?php echo (($_POST['service'] ?? '') === 'Stakeholder Engagement') ? 'selected' : ''; ?>>
+                                Stakeholder Engagement
+                            </option>
+                            <option value="Crisis Communication" <?php echo (($_POST['service'] ?? '') === 'Crisis Communication') ? 'selected' : ''; ?>>
+                                Crisis Communication
+                            </option>
+                            <option value="Psychology-Integrated Communication" <?php echo (($_POST['service'] ?? '') === 'Psychology-Integrated Communication') ? 'selected' : ''; ?>>
+                                Psychology-Integrated Communication
                             </option>
                             <option value="Other" <?php echo (($_POST['service'] ?? '') === 'Other') ? 'selected' : ''; ?>>
                                 Other (Specify in message)
@@ -198,24 +207,24 @@ include 'includes/header.php';
                 </div>
 
                 <div class="form-group">
-                    <label for="address"><i class="fas fa-map-marker-alt"></i> Service Address *</label>
+                    <label for="address"><i class="fas fa-building"></i> Organization / Company *</label>
                     <input type="text" id="address" name="address" class="form-control"
-                           placeholder="Enter full address where service is needed"
+                           placeholder="Enter your organization or company name"
                            value="<?php echo htmlspecialchars($_POST['address'] ?? ''); ?>" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="message"><i class="fas fa-comment"></i> Additional Details</label>
+                    <label for="message"><i class="fas fa-comment"></i> Tell Us About Your Communication Needs</label>
                     <textarea id="message" name="message" class="form-control"
-                              placeholder="Any specific requirements or additional information..."><?php echo htmlspecialchars($_POST['message'] ?? ''); ?></textarea>
+                              placeholder="Describe your communication challenges, goals, or what you'd like to achieve..."><?php echo htmlspecialchars($_POST['message'] ?? ''); ?></textarea>
                 </div>
 
                 <button type="submit" class="btn-submit">
-                    <i class="fas fa-paper-plane"></i> Submit Booking Request
+                    <i class="fas fa-paper-plane"></i> Request Consultation
                 </button>
 
                 <p class="text-center mt-2" style="color: var(--gray); font-size: 0.9rem;">
-                    <i class="fas fa-info-circle"></i> We'll contact you within 24 hours to confirm your booking
+                    <i class="fas fa-info-circle"></i> We'll contact you within 24 hours to discuss your needs
                 </p>
             </form>
         </div>

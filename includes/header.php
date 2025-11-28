@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Aldaka Services - Professional services at your fingertips. Book quality services with ease.">
-    <meta name="keywords" content="services, booking, professional, aldaka">
+    <meta name="description" content="Aldaka Services - Enhancing Communication Strategies. Professional communication consulting for businesses, organizations, and individuals in Uganda.">
+    <meta name="keywords" content="communication, consulting, strategy, media training, Uganda, public relations, stakeholder engagement">
     <meta name="author" content="Aldaka Services">
 
-    <title><?php echo isset($page_title) ? $page_title . ' - ' . SITE_NAME : SITE_NAME . ' - Professional Services'; ?></title>
+    <title><?php echo isset($page_title) ? $page_title . ' - ' . SITE_NAME : SITE_NAME . ' - ' . SITE_TAGLINE; ?></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230066cc'/><text x='50' y='70' font-size='60' text-anchor='middle' fill='white' font-family='Arial,sans-serif' font-weight='bold'>A</text></svg>">
@@ -25,7 +25,7 @@
             <div class="logo-container">
                 <a href="index.php" class="logo">
                     <div class="logo-icon">
-                        <i class="fas fa-tools"></i>
+                        <i class="fas fa-comments"></i>
                     </div>
                     <span><?php echo SITE_NAME; ?></span>
                 </a>

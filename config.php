@@ -7,12 +7,15 @@ define('DB_NAME', 'aldaka_services');
 
 // Site Configuration
 define('SITE_NAME', 'Aldaka Services');
+define('SITE_TAGLINE', 'Enhancing Communication Strategies');
 define('SITE_URL', 'https://www.aldakaservices.com');
 define('SITE_EMAIL', 'info@aldakaservices.com');
-define('WHATSAPP_NUMBER', '1234567890'); // Replace with actual WhatsApp number (with country code, no + or spaces)
+define('SITE_PHONE', '+256 785 138 830');
+define('WHATSAPP_NUMBER', '256785138830'); // Uganda WhatsApp number (country code + number, no + or spaces)
+define('SITE_ADDRESS', 'Plot 20, 21 Martyrs\' Crescent, Ntinda, 2nd Floor, Kampala, Uganda');
 
 // Timezone
-date_default_timezone_set('UTC');
+date_default_timezone_set('Africa/Kampala');
 
 // Error Reporting (disable in production)
 error_reporting(E_ALL);

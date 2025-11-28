@@ -2,8 +2,8 @@
     <footer class="footer">
         <div class="footer-content container">
             <div class="footer-section">
-                <h3><i class="fas fa-tools"></i> <?php echo SITE_NAME; ?></h3>
-                <p>Your trusted partner for professional services. We deliver quality, reliability, and excellence in everything we do.</p>
+                <h3><i class="fas fa-comments"></i> <?php echo SITE_NAME; ?></h3>
+                <p><?php echo SITE_TAGLINE; ?>. We specialize in helping organizations and individuals communicate with clarity, confidence, and impact.</p>
                 <div class="social-links">
                     <a href="#" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
@@ -26,20 +26,20 @@
             <div class="footer-section">
                 <h3>Our Services</h3>
                 <ul class="footer-links">
-                    <li><a href="booking.php"><i class="fas fa-broom"></i> Cleaning Services</a></li>
-                    <li><a href="booking.php"><i class="fas fa-wrench"></i> Maintenance</a></li>
-                    <li><a href="booking.php"><i class="fas fa-paint-roller"></i> Painting</a></li>
-                    <li><a href="booking.php"><i class="fas fa-plug"></i> Electrical Work</a></li>
-                    <li><a href="booking.php"><i class="fas fa-faucet"></i> Plumbing</a></li>
+                    <li><a href="booking.php"><i class="fas fa-search"></i> Communication Assessment</a></li>
+                    <li><a href="booking.php"><i class="fas fa-lightbulb"></i> Strategy Development</a></li>
+                    <li><a href="booking.php"><i class="fas fa-microphone"></i> Media Training</a></li>
+                    <li><a href="booking.php"><i class="fas fa-users"></i> Workshops & Training</a></li>
+                    <li><a href="booking.php"><i class="fas fa-brain"></i> Crisis Communication</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
                 <h3>Contact Info</h3>
                 <p><i class="fas fa-envelope"></i> <?php echo SITE_EMAIL; ?></p>
-                <p><i class="fas fa-phone"></i> +<?php echo WHATSAPP_NUMBER; ?></p>
-                <p><i class="fas fa-map-marker-alt"></i> Your Location Here</p>
-                <p><i class="fas fa-clock"></i> Mon - Sat: 8AM - 6PM</p>
+                <p><i class="fas fa-phone"></i> <?php echo SITE_PHONE; ?></p>
+                <p><i class="fas fa-map-marker-alt"></i> <?php echo SITE_ADDRESS; ?></p>
+                <p><i class="fas fa-clock"></i> Mon - Fri: 9AM - 5PM</p>
             </div>
         </div>
 
